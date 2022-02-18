@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Responsive Navbar</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="black">
+            <nav>
+                <i onclick="openmenu()" class="fa fa-bars open" aria-hidden="true"></i>
+                <h1>Logo</h1>
+                <ul id="menu">
+                    <i onclick="closemenu()" class="fa fa-times close" aria-hidden="true"></i>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="center">
+                <h1>Code with<span> Akrosh</span></h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate harum esse ipsa quo atque cumque
+                    quis porro tempora earum error.</p>
+            </div>
+        </div>
+    </div>
+    <div class="content">
+        <h1>Some Content</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id est, magnam sequi animi assumenda cupiditate
+            nam, inventore possimus aliquid atque enim consequatur quibusdam repellat corporis fuga ipsam alias, nulla
+            totam consequuntur temporibus magni odio? Repudiandae, ut perspiciatis eius aliquid facere laborum ipsa
+            saepe? Magnam temporibus itaque sunt dolorum dicta, magni quasi modi. Corporis natus facere magni facilis.
+            Autem sit maiores quod accusamus numquam, ab ea inventore ad perferendis dolorum architecto labore tenetur
+            blanditiis eum veniam magnam distinctio harum id expedita quam in eaque. Repellendus enim ipsa consectetur
+            velit, minus odit, ea totam culpa, quod fugit praesentium repudiandae! Quisquam quasi ducimus voluptatum
+            veritatis, deserunt quibusdam mollitia amet excepturi rerum soluta quam, inventore, nulla molestiae
+            repellat. Id possimus, excepturi nihil minima ex cumque accusamus. Deserunt eum, provident quibusdam nisi
+            obcaecati aliquam voluptatem nobis sit reprehenderit. Cupiditate nobis ullam itaque ab. Repellendus quam
+            praesentium ratione id voluptate delectus dolor ipsam, optio error fugit aliquam quibusdam ut explicabo
+            natus. Neque labore vitae magnam inventore culpa quae quia, cupiditate, omnis officiis fugiat aperiam enim
+            animi cumque eligendi saepe, quidem quasi. Adipisci iste dolorum soluta eaque exercitationem, sit earum
+            omnis ipsa voluptatibus, tempore aspernatur deserunt beatae cum quo tenetur! Dolorem reprehenderit modi id
+            dolores optio soluta numquam! Deserunt minus cupiditate tenetur rem magni facilis totam provident corporis,
+            soluta hic eius itaque delectus numquam obcaecati facere expedita illo modi laborum. Laboriosam quibusdam
+            dolorum animi molestiae architecto dolore, ducimus illum at natus? Tempora expedita ad saepe dolorem dolor
+            aliquid cupiditate, sit consectetur impedit modi laborum voluptate aut error sunt dolore quidem perferendis,
+            eos fugiat minima blanditiis. Reprehenderit quidem aspernatur tenetur omnis dolore nisi praesentium
+            voluptatum eveniet, qui, obcaecati ipsa debitis hic ullam animi. Consequatur culpa obcaecati, numquam
+            tenetur architecto dolor doloribus dicta animi nulla itaque ab! Temporibus assumenda libero impedit in velit
+            ipsa, officiis voluptatum minus molestiae itaque iusto! Aut, dolores dolore nisi blanditiis cum quo a eum
+            tempora officiis veritatis repellat ad quidem rerum magni ullam dolorem! Quisquam impedit est tempora sequi
+            ad, totam dolore aliquid saepe aut, commodi tempore ut distinctio, consequatur voluptate nemo quia obcaecati
+            ab harum dolor? Facilis laboriosam beatae iste voluptate dolorum vero aliquam, labore, eum quisquam, debitis
+            assumenda necessitatibus accusamus neque illo </p>
+    </div>
+    <script>
+        var navlinks = document.getElementById("menu");
+        function openmenu() {
+            navlinks.style.right = "0px"
+        }
+        function closemenu() {
+            navlinks.style.right = "-200px"
+        }
+    </script>
+</body>
+
+</html>
